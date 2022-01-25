@@ -6,7 +6,7 @@ body,
 }
 .flex-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 300px;
     width: 700px;
     display: flex;
@@ -17,18 +17,18 @@ div {
     background: #daa520;
     border-radius: 100px;
 }
-div:nth-of-type(1) {
+div:nth-child(1) {
     align-self: flex-start;
 }
-div:nth-of-type(2) {
+div:nth-child(2) {
     align-self: center;
 }
-div:nth-of-type(3) {
+div:nth-child(3) {
     align-self: flex-end;
 }
-div:nth-of-type(4) {
+div:nth-child(4) {
     align-self: center;
 }
-div:nth-of-type(5) {
+div:nth-child(5) {
     align-self: flex-start;
 }
